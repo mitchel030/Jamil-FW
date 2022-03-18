@@ -1,0 +1,177 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\31614\\OneDrive - MBO Utrecht\\Bureaublad\\School opdrachten\\Leerjaar 2\\periode 3\\database\\src\\Warehouse.Infrastructure\\Warehouse.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\31614\\OneDrive - MBO Utrecht\\Bureaublad\\School opdrachten\\Leerjaar 2\\periode 3\\database\\src\\Warehouse.Application\\Warehouse.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\31614\\OneDrive - MBO Utrecht\\Bureaublad\\School opdrachten\\Leerjaar 2\\periode 3\\database\\src\\Warehouse.Application\\Warehouse.Application.csproj",
+        "projectName": "Warehouse.Application",
+        "projectPath": "C:\\Users\\31614\\OneDrive - MBO Utrecht\\Bureaublad\\School opdrachten\\Leerjaar 2\\periode 3\\database\\src\\Warehouse.Application\\Warehouse.Application.csproj",
+        "packagesPath": "C:\\Users\\31614\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\31614\\OneDrive - MBO Utrecht\\Bureaublad\\School opdrachten\\Leerjaar 2\\periode 3\\database\\src\\Warehouse.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\31614\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net60": {
+            "projectReferences": {
+              "C:\\Users\\31614\\OneDrive - MBO Utrecht\\Bureaublad\\School opdrachten\\Leerjaar 2\\periode 3\\database\\src\\Warehouse.Domain\\Warehouse.Domain.csproj": {
+                "projectPath": "C:\\Users\\31614\\OneDrive - MBO Utrecht\\Bureaublad\\School opdrachten\\Leerjaar 2\\periode 3\\database\\src\\Warehouse.Domain\\Warehouse.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net60": {
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\31614\\OneDrive - MBO Utrecht\\Bureaublad\\School opdrachten\\Leerjaar 2\\periode 3\\database\\src\\Warehouse.Domain\\Warehouse.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\31614\\OneDrive - MBO Utrecht\\Bureaublad\\School opdrachten\\Leerjaar 2\\periode 3\\database\\src\\Warehouse.Domain\\Warehouse.Domain.csproj",
+        "projectName": "Warehouse.Domain",
+        "projectPath": "C:\\Users\\31614\\OneDrive - MBO Utrecht\\Bureaublad\\School opdrachten\\Leerjaar 2\\periode 3\\database\\src\\Warehouse.Domain\\Warehouse.Domain.csproj",
+        "packagesPath": "C:\\Users\\31614\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\31614\\OneDrive - MBO Utrecht\\Bureaublad\\School opdrachten\\Leerjaar 2\\periode 3\\database\\src\\Warehouse.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\31614\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net60": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net60": {
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\31614\\OneDrive - MBO Utrecht\\Bureaublad\\School opdrachten\\Leerjaar 2\\periode 3\\database\\src\\Warehouse.Infrastructure\\Warehouse.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\31614\\OneDrive - MBO Utrecht\\Bureaublad\\School opdrachten\\Leerjaar 2\\periode 3\\database\\src\\Warehouse.Infrastructure\\Warehouse.Infrastructure.csproj",
+        "projectName": "Warehouse.Infrastructure",
+        "projectPath": "C:\\Users\\31614\\OneDrive - MBO Utrecht\\Bureaublad\\School opdrachten\\Leerjaar 2\\periode 3\\database\\src\\Warehouse.Infrastructure\\Warehouse.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\31614\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\31614\\OneDrive - MBO Utrecht\\Bureaublad\\School opdrachten\\Leerjaar 2\\periode 3\\database\\src\\Warehouse.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\31614\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net60": {
+            "projectReferences": {
+              "C:\\Users\\31614\\OneDrive - MBO Utrecht\\Bureaublad\\School opdrachten\\Leerjaar 2\\periode 3\\database\\src\\Warehouse.Application\\Warehouse.Application.csproj": {
+                "projectPath": "C:\\Users\\31614\\OneDrive - MBO Utrecht\\Bureaublad\\School opdrachten\\Leerjaar 2\\periode 3\\database\\src\\Warehouse.Application\\Warehouse.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net60": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
